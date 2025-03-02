@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "20b7b721-ee65-4ddd-9f96-01aa076713d1",
+		"name": "microservice_architecture",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "40208483"
+	},
+	"item": [
+		{
+			"name": "health",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://arch.homework/health"
+			},
+			"response": []
+		},
+		{
+			"name": "otusapp",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://arch.homework/otusapp/vasiliy/health"
+			},
+			"response": []
+		}
+	]
+}
